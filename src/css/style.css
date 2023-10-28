@@ -1,5 +1,15 @@
+body{
+  justify-content: center;
+  min-height: 100vh;
+}
+
 .d-flex {
   display: flex;
+}
+
+.header{
+  min-width: 5vh;
+  align-items: center;
 }
 
 .flex-column {
@@ -37,7 +47,7 @@
 
 /* Header styles */
 .header .brand-logo {
-  position: static;
+  position: relative;
 }
 
 .header .favorites {
