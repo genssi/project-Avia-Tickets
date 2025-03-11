@@ -45,7 +45,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[hash].js",
-    publicPath: "/project-Avia-Tickets/",
   },
   plugins: [
     new CleanWebpackPlugin(),
@@ -56,5 +55,5 @@ module.exports = {
       template: "index.html",
     }),
   ],
-  mode: "production",
+  mode: "development",
 };
