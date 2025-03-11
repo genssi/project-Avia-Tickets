@@ -17,21 +17,6 @@ class FormUI {
         this.return = datePickerInstance(
             document.getElementById("datepicker-return")
         );
-        // Добавляем обработчики событий для поля origin
-        this.origin.addEventListener("focus", this.clearOriginLabel.bind(this));
-        this.origin.addEventListener(
-            "blur",
-            this.restoreOriginLabel.bind(this)
-        );
-        // Добавляем обработчики событий для поля destination
-        this.destination.addEventListener(
-            "focus",
-            this.clearDestinationLabel.bind(this)
-        );
-        this.destination.addEventListener(
-            "blur",
-            this.restoreDestinationLabel.bind(this)
-        );
     }
 
     get form() {
