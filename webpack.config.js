@@ -56,5 +56,5 @@ module.exports = {
       template: "index.html",
     }),
   ],
-  mode: "development",
+  mode: "production",
 };
